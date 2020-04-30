@@ -1,0 +1,20 @@
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-gap: 1px 1px;
+	margin: 0px;
+	padding: 0px;
+	justify-content: center;
+	align-content: center;
+	background-color: hsl(0deg, 10%, 80%);
+}
+
+.child{
+	display: block;
+	background-color: white;
+}
+
+.child:hover{
+	background-color: blue;
+}
