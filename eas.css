@@ -1,20 +1,69 @@
 .container{
-	width: 100vw;
-	height: 100vh;
+	position: absolute;
+	top: 40px;
+	width: 98vw;
+	height: 92vh;
 	display: grid;
-	grid-gap: 1px 1px;
+	grid-gap: 0px 0px;
 	margin: 0px;
 	padding: 0px;
 	justify-content: center;
 	align-content: center;
 	background-color: hsl(0deg, 10%, 80%);
+	border: 4px solid hsl(0deg, 10%, 80%);
+	z-index: -2;
 }
-
 .child{
 	display: block;
-	background-color: white;
+	margin: 0px;
+	padding: 0px;
 }
 
 .child:hover{
 	background-color: blue;
+}
+
+.clr{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+.clrbtn{
+	width: 50%;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.rnc{
+	width: 50%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+}
+input{
+	width: 30vw;
+	height: 20px;
+}
+#resize{
+	width: 15vw;
+	height: 30px;
+	font-weight: bold;
+	padding: 0px;
+}
+#clear{
+	width: 15vw;
+	height: 30px;
+	font-weight: bold;
+}
+
+.dot{
+	position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: teal;
 }
